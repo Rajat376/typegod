@@ -1,0 +1,167 @@
+.outbox
+{
+    background-color: orange;
+    width: 1000px;
+    height: 500px;
+    /* 400*/
+    border-radius:50px;
+   
+    margin-top: 50px;
+    display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.inbox
+{display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral; 
+    
+    width: 900px;
+    height: 400px;
+     /* 320*/
+
+}
+.Below
+{
+    
+    display: flex;
+align-items: center;
+justify-content: space-around;;
+width: 1000px;
+height:200px;
+text-align: center;
+word-spacing: 100px;
+
+}
+.Rand
+{
+background-color: orange;
+color: White;
+padding: 30px;
+font-size: 25px;
+border-radius:5px;
+width:300px;
+cursor: pointer;
+}
+.Start
+{
+    background-color: orange;
+    color: White;
+    padding: 30px;
+    font-size: 25px;
+    border-radius:5px;
+    width:300px;
+    cursor: pointer;
+}
+.Screen
+{
+    width: 850px;
+    height: 350px;
+     /* 320*/
+    background-color: lightcoral;
+    color: white;
+    font-size: x-large;
+    padding: 10px;
+}
+.Sub
+{
+    background-color: orange;
+    width: 1000px;
+    height: 200px;
+    border-radius:50px;
+   position: fixed;
+   top :450px;
+    margin-top: 50px;
+    display: flex;
+align-items: center;
+justify-content: center;
+display: none;
+}
+.Insub
+{
+    width: 900px;
+    height: 100px;
+    background-color: lightcoral;
+    color: white;
+    font-size: x-large;
+    padding: 10px;
+    overflow: auto;
+}
+.outTime
+{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+   border-radius: 50px;
+    
+    
+    background-color: black;
+    top :200px;
+    left:100px;
+    display: none;
+}
+.Timebox
+{   margin: 10px;
+    background-color: coral;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 25px;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.ResultPage
+{  display: flex;
+position: fixed;
+background-color: orange;
+top:50px;
+
+height:500px;
+width:1000px;
+align-items: center;
+justify-content: center;
+text-align: center;
+display: none;
+}
+.result
+{
+padding: 100px;
+height: 450px;
+width: 950px;
+background-color:cornflowerblue;
+font-size: 40px;
+align-items: center;
+text-align: center;
+}
+.wpm
+{
+color: green;
+}
+.cpm
+{
+    color: yellow;
+}
+.Try
+{   position: fixed;
+    top:600px;
+ left: 40vw;
+    color: white;
+    background-color: orange;
+    font-size: larger;
+    width: 20vw;
+    height: 100px;
+    padding:10px;
+    font-size: 30px;
+    display: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
